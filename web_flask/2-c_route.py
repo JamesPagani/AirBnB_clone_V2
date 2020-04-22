@@ -25,7 +25,7 @@ def simple_hbnb():
 @app.route('/c/<text>', strict_slashes=False)
 def what_is_c(text):
     """Display 'C is <text>', where text is your input text."""
-    return "C is {}".format(text)
+    return "C is {}".format(text.replace('_', ' '))
 
 if __name__ == "__main__":
     app.run()
