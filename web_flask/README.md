@@ -13,8 +13,7 @@
 + 4-number_route.py: Displays the variable sent to `/number/<number>` ONLY if it is a number.
 + 5-number_template.py: Similar to `4-number_route.py`, but displays a web template instead.
 + 6-number_odd_or_even.py: When making a request to `/number_odd_or_even/<n>`, display a web template if `n` is an integer while also saying if the number is odd or even.
-+ 7-states_list.py: Making a request to `/states_list` will display all states stored in the database (DBStorage).
-+ 
++ 7-states_list.py: Making a request to `/states_list` will display all states stored in the database (DBStorage). 
 
 ### Folders
 
