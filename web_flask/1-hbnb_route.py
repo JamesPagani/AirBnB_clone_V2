@@ -20,7 +20,7 @@ def hello_hbnb():
 @app.route('/hbnb', strict_slashes=False)
 def simple_hbnb():
     """Display the string 'HBNB!'"""
-    return "HBNB!"
+    return "HBNB"
 
 if __name__ == "__main__":
     app.run()
